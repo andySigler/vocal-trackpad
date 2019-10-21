@@ -1,3 +1,12 @@
+/*
+
+	JS Script that converts the output of `fingerpinger.mxo` into individually
+	indexed fingers with their own XY coordinates.
+
+	This was writting in 2013, and should probably be rewritten for reability...
+
+*/
+
 ////////////////////////////////////
 ////////////////////////////////////
 ////////////////////////////////////
@@ -15,9 +24,9 @@ outlets = totalOutputs;
 
 function init(){
 	if(jsarguments.length>1) totalOutputs = jsarguments[1];
-	
+
 	outlets = totalOutputs;
-	
+
 	currentOutput = [];
 
 	outputSum = [];

@@ -1,3 +1,12 @@
+/*
+
+	JS Script that converts the output of `handRouter.js` into individual
+	touch/drag/release messages for each finger.
+
+	This was writting in 2013, and should probably be rewritten for reability...
+
+*/
+
 ////////////////////////////////////
 ////////////////////////////////////
 ////////////////////////////////////
@@ -15,9 +24,9 @@ var available = [];
 
 function init(){
 	if(jsarguments.length>1) totalRoutes = jsarguments[1];
-	
+
 	outlets = totalRoutes;
-	
+
 	router = {};
 
 	for(var i=0;i<totalRoutes;i++){
