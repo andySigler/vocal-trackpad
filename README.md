@@ -4,6 +4,8 @@ Max/MSP patch for creating synthesized vocal sounds with an Apple Magic Trackpad
 
 The low-latency and multi-touch capabilities of Apple's trackpads make for controlling the resonant frequencies of a voice box lots of fun.
 
+Inspired by (my original work)[http://www.andysigler.com/projects/noser/] while a graduate student, where I made a new interface for musical expression (NIME) using a trackpad and a physical interface.
+
 I'll be using the software in this repo to train my hands how to puppet a voice.
 
 ## Installation
