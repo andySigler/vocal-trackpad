@@ -1,0 +1,8 @@
+*.bak
+*.bak.*
+*.old
+.DS_Store
+logs/*
+images/**/*.png
+images/**/*.dot
+my_*
